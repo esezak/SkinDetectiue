@@ -7,7 +7,7 @@ def predict_random_samples(
         model_path="runs/classify/train3/weights/best.pt",
         test_dir="database/test",
         samples_per_class=5,
-        device=0  # set -1 for CPU
+        device=0
 ):
     """
     Selects N random images per class from test_dir and predicts their class using a trained YOLO classifier.
@@ -52,5 +52,5 @@ if __name__ == "__main__":
     predict_random_samples(
         test_dir="no_augment_v1/test",
         samples_per_class=10,
-        device=0  # change to -1 for CPU
+        device=0
     )
