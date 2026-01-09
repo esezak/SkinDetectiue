@@ -35,7 +35,7 @@ If `matplotlib` is not available, the script will print a warning and skip PNG g
 Install it with:
 
 ```powershell
-pip install matplotlib
+pip install matplotlib ultralytics
 ```
 
 ### Default model selection
